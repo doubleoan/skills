@@ -65,8 +65,10 @@ cp -r skills/wechat-compliance-check ~/.qoderwork/skills/
 我是曦，热爱研究新科技，AI人工智能和生产力工具。期待和你一起聪明工作，好好生活。
 
 开源出来的 skill 都是我自己日常一直在用的，如果觉得对你有帮助，给个就star就行。
-如果有想法和建议欢迎找我交流，可以关注我公众号：IT信息在线 <img width="681" height="679" alt="IMG_6192" src="https://github.com/user-attachments/assets/093eeed2-f0e0-431d-8acf-adc5a0115e18" />
-，或者加我微信：wxid_pmt5svoowseu12。
+如果有想法和建议欢迎找我交流，可以关注我公众号：IT信息在线  
+<img width="300" height="300" alt="IMG_6192" src="https://github.com/user-attachments/assets/093eeed2-f0e0-431d-8acf-adc5a0115e18" />
+
+或者加我微信：wxid_pmt5svoowseu12。
 
 ## 许可证
 
