@@ -28,6 +28,7 @@ git clone https://github.com/doubleoan/skills.git
 
 # 复制 skill 到 对应 skills 目录
 cp -r skills/wechat-compliance-check ~/.cluade/skills/
+cp -r skills/wechat-compliance-check ~/.codex/skills/
 cp -r skills/wechat-compliance-check ~/.qoderwork/skills/
 ```
 
