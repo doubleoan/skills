@@ -13,6 +13,7 @@
 | 名字 | 一句话 | 详细文档 |
 |------|--------|----------|
 | wechat-compliance-check（公众号合规检测） | 微信公众号文章发布前合规风险检测，DFA 词库扫描 + 9 条红线逐条审查，覆盖 10 大风险类别 | [docs/wechat-compliance-check.md](docs/wechat-compliance-check.md) |
+| wechat-compliance-check-no-wordlib（公众号合规检测·无词库版） | 微信公众号文章发布前合规风险检测，纯规则审查，无需词库即装即用 | [docs/wechat-compliance-check-no-wordlib.md](docs/wechat-compliance-check-no-wordlib.md) |
 
 ---
 
@@ -22,6 +23,9 @@
 
 帮我安装这个 skill：https://github.com/doubleoan/skills/wechat-compliance-check
 
+# 安装无词库版
+帮我安装这个 skill：https://github.com/doubleoan/skills/wechat-compliance-check-no-wordlib
+
 ```bash
 # 克隆仓库
 git clone https://github.com/doubleoan/skills.git
@@ -30,6 +34,12 @@ git clone https://github.com/doubleoan/skills.git
 cp -r skills/wechat-compliance-check ~/.cluade/skills/
 cp -r skills/wechat-compliance-check ~/.codex/skills/
 cp -r skills/wechat-compliance-check ~/.qoderwork/skills/
+
+# 或安装无词库版（无需 Python，即装即用）
+cp -r skills/wechat-compliance-check-no-wordlib ~/.cluade/skills/
+cp -r skills/wechat-compliance-check-no-wordlib ~/.codex/skills/
+cp -r skills/wechat-compliance-check-no-wordlib ~/.qoderwork/skills/
+
 ```
 
 ---
@@ -58,6 +68,33 @@ cp -r skills/wechat-compliance-check ~/.qoderwork/skills/
 - 防绕过检测：全半角转换、繁简转换、特殊字符过滤、拼音首字母识别
 
 → [详细文档](docs/wechat-compliance-check.md)
+
+---
+
+### wechat-compliance-check-no-wordlib（公众号合规检测·无词库版）
+
+> "发公众号之前跑一遍，轻量无依赖，即装即用。"
+
+微信公众号文章发布前的合规风险检测工具（无词库版）。采用纯规则审查架构：
+
+- **六大模块逐项审查**：标题、封面图、正文配图、正文内容、营销表达、综合评估，覆盖文章全生命周期
+- **红线逐条对照**：对照微信官方《微信公众号和服务号推荐运营规范》9 条红线逐条检查，引用官方原文条款和案例
+
+**怎么触发：**
+- "帮我检测这篇文章的合规风险"
+- "公众号文章审核"
+- "这篇文章能发吗"
+- "检查红线"
+
+**特性：**
+- 无需 Python，无需下载词库，即装即用
+- 完全本地运行，不上传文章内容到任何外部服务
+- 适合轻量级、无网络环境的场景
+- 支持标题专项、配图专项、快速敏感词等多种检测模式
+
+**与有词库版本的区别：** 无 DFA 词库扫描层，敏感词检测依赖 Agent 对参考文档中违禁词库的理解和比对能力。如需精确关键词匹配，请使用 [wechat-compliance-check](wechat-compliance-check/)。
+
+→ [详细文档](docs/wechat-compliance-check-no-wordlib.md)
 
 ---
 
