@@ -104,7 +104,7 @@ cp -r skills/wechat-compliance-check-no-wordlib ~/.qoderwork/skills/
 
 开源出来的 skill 都是我自己日常一直在用的，如果觉得对你有帮助，给个就star就行。
 
-如果有想法和建议欢迎找我交流，可以关注我公众号：IT信息在线  
+如果有想法和建议欢迎找我交流，可以关注我公众号：科技老兵李四 
 
 <img width="300" height="300" alt="IMG_6192" src="https://github.com/user-attachments/assets/093eeed2-f0e0-431d-8acf-adc5a0115e18" />
 
