@@ -99,7 +99,7 @@ A pre-publish compliance risk detection tool for WeChat Official Account article
 
 I'm Xi (曦), passionate about exploring new technology, AI, and productivity tools. Let's work smarter and live better together.
 
-All the open-sourced skills here are ones I use daily in my own workflow. If you find them helpful, a star would mean a lot. If you have ideas or feedback, feel free to reach out — follow my WeChat Official Account: **科技老兵李四**, or add me on WeChat: **wxid_pmt5svoowseu12**.
+All the open-sourced skills here are ones I use daily in my own workflow. If you find them helpful, a star would mean a lot. If you have ideas or feedback, feel free to reach out — follow my WeChat Official Account: **羲说科技**, or add me on WeChat: **wxid_pmt5svoowseu12**.
 
 ## License
 
